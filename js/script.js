@@ -15,3 +15,11 @@ document.addEventListener("click", function (e) {
     navbarNav.classList.remove("active");
   }
 });
+
+//Search form
+const srchBox = document.querySelector(".search-form");
+
+// ketika menu search diklik
+document.querySelector("#search").onclick = () => {
+  srchBox.classList.toggle("active");
+};
